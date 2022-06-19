@@ -1,0 +1,39 @@
+
+
+#begin_button
+{
+    color:white;
+    width: 80%;
+    height:80%;
+    border-radius: 200px;
+    border: none;
+    text-align: center;
+    font-size: 40px;
+    
+}
+
+h1
+{
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+}
+
+h2
+{
+    font-family: 'Montserrat', sans-serif;
+    color:white;
+    font-size:30px;
+}
+
+#rules_button
+{
+    color:white;
+    width: 80%;
+    height:80%;
+    border-radius: 200px;
+    border: none;
+    text-align: center;
+    font-size: 40px;
+    
+}

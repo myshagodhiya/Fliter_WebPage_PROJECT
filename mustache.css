@@ -1,0 +1,38 @@
+body{
+    background-color: #bf74f7;
+}
+
+h1
+{
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+canvas
+{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+button
+{
+    color:black;
+}
+
+#next_lips
+{
+    color:black;
+    float:right;
+}
+
+h3
+{
+    font-family: 'Montserrat', sans-serif;
+color:white;
+}
+
+@keyframes example{
+    from{box-shadow: 1px 1px 38px grey;}
+    to{box-shadow: 1px 1px 38px white;}
+}
