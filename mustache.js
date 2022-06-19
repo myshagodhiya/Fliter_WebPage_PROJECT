@@ -6,13 +6,13 @@ function preload(){
 }
 
 function setup(){
-        canvas=createCanvas(280,280);
+        canvas=createCanvas(315,315);
         canvas.center();
         background("white");
-    canvas=createCanvas(330,330);
+    canvas=createCanvas(315,315);
     canvas.center();
     video = createCapture(VIDEO);
-    video.size(330,330);
+    video.size(315,315);
     video.hide();
     poseNet = ml5.poseNet(video, modelLoaded);
     poseNet.on('pose', gotPoses);
@@ -34,7 +34,7 @@ function gotPoses(results){
 }
 
 function draw(){
-    image(video,0,0,330,330);
+    image(video,0,0,315,315);
     image(mustache_filter, noseX-20, noseY-6, 40, 40);
 }
 
